@@ -120,7 +120,7 @@ alt text: *totally* dependent on the context in which it is used
 
 use `alt=""` when the image is only there for sighted users  
 
-[al text decision tree](http://www.4syllables.com.au/2010/12/text-alternatives-decision-tree/)—*use this*  
+[alt text decision tree](http://www.4syllables.com.au/2010/12/text-alternatives-decision-tree/)—*use this*  
 
 ### forms
 
@@ -175,7 +175,7 @@ TAMUS may be piloting having a DCOE in a university system
 ### purposes 
 
 - present a unified digital experience across sites
-- streamline processes for publlishing content, moderationg social, _____
+- streamline processes for publishing content, moderationg social, _____
 - create cost efficiencies 
 
 ---
