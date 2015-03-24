@@ -19,6 +19,8 @@ OR :      `<ESC>   :wq   <ENTER>`  to save the changes.
 
 NOTE: Pressing **`<ESC>`** will place you in Normal mode or will cancel an unwanted and partially completed command
 
+---
+
 ## moving around
 
 The cursor is moved using either the arrow keys or the hjkl keys
@@ -74,7 +76,7 @@ without changing the position of the cursor (though stays on the screen)
 `de` : delete to end of word 
 `dw` : delete the whole word, cursor on next one   
 `d$` or `D`: delete from the **cursor to the end of a line**  
-`d^` : delete from the **cursor from the beginning of a line**  
+`d^` : delete from the **cursor to the beginning of a line**  
 `dd` : **delete a whole line** (`cc` sets you up to change the line)      
 `daw` : delete one word (btw, is repeatable with the dot command)  
 
@@ -101,18 +103,21 @@ without changing the position of the cursor (though stays on the screen)
 
 ## copying and pasting
 
-`y` copy (yank)  
-`yw`: copy word  
-`yy`: copy line, etc.
+`y`  : copy (yank). Like delete (`d`) but leaves it in the file    
+`yw` : yank word   
+`yy` : yank line, etc.
 
-`p` paste  
-`yyp` copy the line and paste (creates two the same)  
+`p`  : paste (put) the text in the buffer **after** the cursor  
+`P`  : paste (put) the text in the buffer **before** the cursor   
+`yyp`: copy the line and paste (creates two the same)  
+
+Pasting does not clear the buffer. Yanking or deleting does by replacing the text in the buffer.  
 
 ---
 
 ## format for a change command
 
-**e.g.**: `d3w` to delete three words
+**e.g.**: `d3w` to delete three words; `y3w` to yank three words
 
               operator   [number]   motion
 
@@ -125,18 +130,18 @@ where:
 	- `b` (to beginning of word)
 	- `$` (to the end of line)
 	- `0` (to beginning of line), etc.
+	
+### undo
 
-To undo previous actions:           `u`  (lowercase u)
-
-To undo all the changes on a line:  `U`  (capital U)
-
-To undo the undos:                `CTRL-R`
+`u` : (lowercase u) undo previous actions          
+`U` : (capital U) undo all the changes on a line  
+`CTRL-r` : redo/undo the undos            
 
 ### repeating
 
 To repeat a motion prepend it with a number:  `2w`   
 
-To repeat the last action: `.`  
+`.`  repeats the last action 
 
 ---
 
