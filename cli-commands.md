@@ -14,6 +14,21 @@ install [here](http://beyondgrep.com/install/)
 
 ---
 
+## image editing/processing
+
+`sips -Z 1600 *.jpg` OS X only; scale jpg(s) to 1600 longest dimension. [more](http://www.maclife.com/article/columns/terminal_101_resize_images_terminal)  
+
+### ImageMagick
+
+[site](http://www.imagemagick.org/script/command-line-tools.php) cross platform  
+
+### svgo
+
+svg image optimizer [on github](https://github.com/svg/svgo)  
+
+
+---
+
 ## bash editor
 
 Ctrl-X then Ctrl-E (you may set this editor to vim in .bash_profile by adding `export EDITOR="vim"`)
