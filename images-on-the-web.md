@@ -1,6 +1,6 @@
 # images on the web
 
-for meeting Apr. 2012  
+for meeting Apr. 2012; additions/updates May 2015  
 
 **proper images add visual content to the story/page/site**
 
