@@ -115,6 +115,17 @@ Pasting does not clear the buffer. Yanking or deleting does by replacing the tex
 
 ---
 
+## formatting
+
+`>>` : indents current line  
+`<<` : outdents current line  
+`:se ai` : enables auto-indent  
+`:se noai` : disables it  
+`:se wm=8` : set wrap margin  
+`:se wm=0` : disables it  
+
+---
+
 ## format for a change command
 
 **e.g.**: `d3w` to delete three words; `y3w` to yank three words
@@ -158,6 +169,11 @@ can make changes in current instance by entering command mode (`:`), or overall 
 
 ## finding, searching, replacing
 
+to find (case sensitive) in the document: `/term`  (searches forward; to search backwards: `?term` ). Use regex when needed, e.g.: `/[Tt]erm` to find both Term and term    
+
+`n` searches for the next instance  
+`N` searches for the previous instance (or opposite direction if started with `?`)  
+
 to jump to next given char in a line:	`f{char}` or `F{char}` for previous  	
 then the next instance of that char:	`;`	or `,` for previous  
 can then use `s` command to replace that char with multiple characters and put that action in the `.` buffer  
@@ -167,7 +183,7 @@ then to the next instance of that word: `n`
 
 (following from [tuxfiles](http://web.archive.org/web/20130412212112/http://www.tuxfiles.org/linuxhelp/vimcheat.html) accessed at [http://archive.org](http://archive.org))  
 
-`:rs/foo/bar/a`	Substitute foo with bar. `r` determines the range and `a` determines the arguments.  
+`:rs/foo/bar/a`	Substitute foo with bar. `r` determines the range and `a` determines the arguments. **Note:** the `/` can be any character, preferably one not occuring in the search and replace terms   
 
 ### the range (r) can be: 
 
