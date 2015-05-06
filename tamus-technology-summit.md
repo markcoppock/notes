@@ -164,7 +164,7 @@ from the program:
 
 DCOEs: so far, not at university systems  
 
-Pepsico: started for marketing cohedsiveness adn sharing best practives thoughout the companies  
+Pepsico: started for marketing cohesiveness and sharing best practices thoughout the companies  
 
 JP Morgan  
 
@@ -204,7 +204,7 @@ lazylib js to load images as the user scrolls
 
 phone numbers marked up to dial phones on jabber/voip system   
 
-erikrunyoh.com/highered-rwd-directory  
+[erikrunyon.com/highered-rwd-directory](http://erikrunyon.com/highered-rwd-directory/)  
 
 drastic differece between how current and prospective students use the site. 
 
