@@ -476,8 +476,8 @@ takes the output and writes/**overwrites** to the file named afterward
 ## >>
 same as above, but appends the new output to an existing file
 
-# < 
-lets you tell a command that it should read its content from a file, rather than from the command line. e.g.: more < data.txt will just let you page through the file, rather than typing `cat data.txt | more`
+## < 
+lets you tell a command that it should read its content from a file, rather than from the command line. e.g.: `more < data.txt` will just let you page through the file, rather than typing `cat data.txt | more`
 
 ---
 
@@ -486,7 +486,7 @@ word count
 
 ---
 
-# -h 
+## -h 
 
 `--help` flags for help  
 
@@ -537,55 +537,3 @@ from [here](http://www.maclife.com/article/columns/terminal_101_mirror_websites_
 ## sudo !! 
 
 redo previous command as root user 
-
----
-
----
-
----
-
-# linux system administration commands
-
-some from the [Raspberry Pi User Guide](http://www.amazon.com/Raspberry-User-Guide-Gareth-Halfacree/dp/111846446X)
-
-## connecting external storage devices
-
-1. `sudo fdisk -l` to see list of connected drives. Note the device name in the first line of info on each; e.g. `Disk /dev/sda1 ...` where, in this example, the "a" is the drive letter and the following "1" is the partition number 
-2. `sudo mkdir /media/<externaldrivenameyouchoose>` to create a "mount point" for users when a desktop environment isn't loaded (such as with servers)
-3. `sudo chgrp -R users /media/<externaldrivenameyouchose> && sudo chmod -R g+w /media/<externaldrivenameyouchose>` to make it accessible to that group which you've designated after the `-R` 
-4. `sudo mount /dev/sda1 /media/<externaldrivenameyouchoose> o=rw` to mount external drive and gain access for the users designated in step 3
-
-
-## create new user
-
-`sudo useradd ...`  
-
-e.g.:  
-
-	sudo useradd -m -G adm,dialout,cdrom,audio,plugdev,users,lpadmin,sambashare,vchiq,powerdev newusername
-
-`-m` gives that user their own directory  
-
-`-G` follow this with the list of groups for that new user (comma delimited, no spaces)    
-
-if any groups are listed as `useradd: group '<groupname>' does not exist`, the user will not be created yet; redo `sudo useradd ... ` with only groups that exist, or create those groups first    
-
-## set/change user password
-
-`sudo passwd markcoppock`
-
-## add existing user to existing group
-
-`usermod -a -G groupname username`
-
-## show groups for user
-
-`groups` shows groups the current user is in  
-
-`groups username` shows groups the designated user is in
-
-## deleting a user
-
-`sudo deluser --remove-all-files username`
-
-of course, danger  
