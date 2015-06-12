@@ -511,8 +511,18 @@ change the uppercase characters in a file to lowercase characters in a new file:
 to download from a URL to the current directory 
 
 `curl -O http://www.theweathernetwork.com//common/images/web/wicons/w.gif`
-	
-also see `wget`
+
+---
+
+## wget
+
+like `curl` 
+
+to clone a site: `wget -mk domain.com` 
+
+from [here](http://www.maclife.com/article/columns/terminal_101_mirror_websites_offline_viewing)—
+
+> The “-m” puts wget into mirror mode, which follows links on webpages and downloads subsequent pages on the site. The “-k” ensures that wget re-writes links so that they link to your local copy of the website instead of the original destination (the remote web server).
 
 ---
 
