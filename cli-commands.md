@@ -1,4 +1,12 @@
 
+## OS-X: before installing things like node on the command line:
+
+`sudo chown -R $USER /usr/local`
+
+from [lynda.com](http://www.lynda.com/Grunt.js-tutorials/Installing-Grunt-cli-Sass/372540/385117-4.html): This recursively changes the owner of the user local folder to the current logged in user so you can run the node package manager or npm and also Ruby gems  
+
+---
+
 ## <a name="ack"></a> ack
 
 enhanced version of [`grep`](#grep)  
