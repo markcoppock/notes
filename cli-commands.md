@@ -315,9 +315,7 @@ see [separate notes file on AWK](http://dmgdemophp.tamu.edu/marknotes/awk/)
 
 ---
 
-<a name="ln" id="ln"></a>
-
-## ln
+## <a name="ln" id="ln"></a>ln
 
 ### symbolic link example:
 
@@ -447,7 +445,7 @@ secure remove
 
 print working directory (shows where you are)
 
-`pwd -P` shows the full, physical directory with symbolic links resolved (see [`ln`](#ln))
+`pwd -P` shows the full, physical directory with symbolic links resolved ( see [`ln`](#ln) )
 
 ## more 
 
@@ -490,7 +488,7 @@ word count
 
 `--help` flags for help  
 
-## man <command\>
+## man (command)
 
 manual
 

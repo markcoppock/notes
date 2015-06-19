@@ -3,6 +3,7 @@
 [docs](http://vimdoc.sourceforge.net/)  
 [cheatsheet](http://tnerual.eriogerg.free.fr/vimqrc.pdf) (PDF)  
 [cheatsheet](http://web.archive.org/web/20130412212112/http://www.tuxfiles.org/linuxhelp/vimcheat.html) (HTML)
+[quick reference](http://tnerual.eriogerg.free.fr/vimqrc.pdf) (PDF)
 
 ## basics
 
@@ -124,6 +125,8 @@ Pasting does not clear the buffer. Yanking or deleting does by replacing the tex
 `:se wm=8` : set wrap margin  
 `:se wm=0` : disables it  
 
+see the documentation for additional `:se` (set) commands  
+
 ---
 
 ## format for a change command
@@ -209,6 +212,18 @@ then to the next instance of that word: `n`
 #### on mac:
 
 try `:set fileformat=unix` (from [stackexchange](http://stackoverflow.com/questions/811193/how-to-convert-the-m-linebreak-to-normal-linebreak-in-a-file))
+
+---
+
+## filtering text through shell commands
+
+`!!<shell command>`   
+
+e.g.,
+
+`!!tr a-z A-Z` makes that line all uppercase; preceeding it with a numeral affects that many lines  
+`!}tr a-z A-Z` applies the transformation to the paragraph
+`!}fmt` formats the paragraph  
 
 ---
 
