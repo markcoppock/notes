@@ -2,7 +2,7 @@
 
 [docs](http://vimdoc.sourceforge.net/)  
 [cheatsheet](http://tnerual.eriogerg.free.fr/vimqrc.pdf) (PDF)  
-[cheatsheet](http://web.archive.org/web/20130412212112/http://www.tuxfiles.org/linuxhelp/vimcheat.html) (HTML)
+[cheatsheet](http://web.archive.org/web/20130412212112/http://www.tuxfiles.org/linuxhelp/vimcheat.html) (HTML)  
 [quick reference](http://tnerual.eriogerg.free.fr/vimqrc.pdf) (PDF)
 
 ## basics
@@ -222,7 +222,7 @@ try `:set fileformat=unix` (from [stackexchange](http://stackoverflow.com/questi
 e.g.,
 
 `!!tr a-z A-Z` makes that line all uppercase; preceeding it with a numeral affects that many lines  
-`!}tr a-z A-Z` applies the transformation to the paragraph
+`!}tr a-z A-Z` applies the transformation to the paragraph  
 `!}fmt` formats the paragraph  
 
 ---
