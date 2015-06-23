@@ -259,11 +259,11 @@ CTRL-R to search history by keyword(s)
 
 ## sed
 
-**strength:** character by character file manipulation  
+**strength:** character by character file and string manipulation  
 
 see [here](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/sect_05_01.html) and [here](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/sect_05_02.html)  
 
-Streaming editing; search and replace in file while remaining in the shell. The result is sent to standard output. Results can be saved to a file using output redirection. The editor does not modify the original input.  
+Stream editing; search and replace in file while remaining in the shell. The result is sent to standard output. Results can be saved to a file using output redirection. The editor does not modify the original input.  
 
 `sed 's/searchterm/replaceterm/g' file.txt` (use regex)  
 
@@ -276,7 +276,10 @@ e.g., to replace the database password "root" in a wp-config.php file to "differ
 - use double quotes when there are single quotes in the search and replace terms
 - only escape regex characters
 - the `-i.bak` flag creates a backup of the original file
-- for the above, could also do: `perl -pi -e "s/PASSWORD', 'root/PASSWORD', 'differentpw/g;" wp-config.php` (from [here](http://lifehacker.com/5810026/quickly-find-and-replace-text-across-multiple-documents-via-the-command-line/all); note semicolon at end of quoted statement)
+- for the above, could also do: `perl -pi -e "s/PASSWORD', 'root/PASSWORD', 'differentpw/g;" wp-config.php` (from [here](http://lifehacker.com/5810026/quickly-find-and-replace-text-across-multiple-documents-via-the-command-line/all); note semicolon at end of quoted statement)  
+
+combine with `tr`: `echo "Safety & Human Factors" | tr A-Z a-z | sed 's/&/and/g' | tr [:blank:] -`; echoes `safety-and-human-factors` 
+
 
   
 ## ed 
@@ -500,11 +503,13 @@ translate; e.g., changing case:
      
 `echo 'UPPERCASE TEXT' | tr A-Z a-z` shows in standard output  
 
-`echo 'UPPERCASE TEXT' | tr A-Z a-z | pbcopy` sends output to OSX clipboard   
+`echo 'UPPERCASE TEXT' | tr A-Z a-z | pbcopy` sends output to OSX clipboard    
 
-show all the uppercase characters in a file as lowercase:  
+`echo "Research Support" | tr A-Z a-z | tr [:blank:] - | pbcopy` converts string to lowercase and converts spaces to dashes  
 
-`tr A-Z a-z < test.txt`
+combine with sed: `echo "Safety & Human Factors" | tr A-Z a-z | sed 's/&/and/g' | tr [:blank:] -`; echoes `safety-and-human-factors`  
+
+show all the uppercase characters in a file as lowercase: `tr A-Z a-z < test.txt`  
 
 change the uppercase characters in a file to lowercase characters in a new file:
 
