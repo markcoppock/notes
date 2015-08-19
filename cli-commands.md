@@ -119,6 +119,11 @@ for files modified on a certain date:
 
 `sudo find . -type d -exec chmod 755 {} +`
 
+
+### copy files modified after certain date to another directory
+
+`find . -newermt "2015-08-01" -type f  -name "backup-*" -exec cp {} ./2015-08-backups/ \;`
+
 ---
 
 ## zip 
