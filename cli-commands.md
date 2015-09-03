@@ -34,6 +34,8 @@ install [here](http://beyondgrep.com/install/)
 
 svg image optimizer [on github](https://github.com/svg/svgo)  
 
+`svgo image.svg` or `svgo -f directory-of-svgs/`  
+
 
 ---
 
