@@ -1,3 +1,20 @@
+## nslookup
+
+query Internet name servers interactively  
+
+e.g.,
+
+`nslookup rf.tamus.edu` yields:
+	
+	Server:		10.200.2.220
+	Address:	10.200.2.220#53
+
+	Non-authoritative answer:
+	rf.tamus.edu	canonical name = vpr-wp.tamu.edu.
+	Name:	vpr-wp.tamu.edu
+	Address: 128.194.89.176
+
+---
 
 ## OS-X: before installing things like node on the command line:
 
