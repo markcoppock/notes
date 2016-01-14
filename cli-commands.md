@@ -64,7 +64,7 @@ Ctrl-X then Ctrl-E (you may set this editor to vim in .bash_profile by adding `e
 
 ## public key authentication
 
-to create a private and public RSA key: `ssh-keygen -t rsa`  
+to create a private and public RSA key: `ssh-keygen -t rsa`  (for more details, and for use with github, see [here](https://help.github.com/articles/generating-ssh-keys/))
 
 to set it up on a remote server (from [here](http://users.telenet.be/mydotcom/howto/linux/sshpasswordless.htm)):
 
@@ -438,9 +438,18 @@ makes a new directory.
 
 ## cd 
 
-switches to a different directory. `cd` by itself takes you to the home dir
+switches to a different directory. 
 
-to return to the previous directory, `cd -`  
+- `cd` by itself takes you to the home dir
+- `cd -` to return to the previous directory
+
+## pushd
+
+like `cd` but pushes the current directory into a "stack", to return to with...
+
+## popd
+
+return to the directory/directories "stack" created with `pushd`
 
 ---
 
