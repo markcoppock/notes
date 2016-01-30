@@ -231,7 +231,7 @@ from [skorks](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productiv
 - `Ctrl + k` – delete from cursor to the end of the command line
 - `Ctrl + u` – delete from cursor to the start of the command line
 - `Ctrl + w` – delete from cursor to start of word (i.e. delete backwards one word)
-- `Ctrl + y` – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
+- `Ctrl + y` – paste word or twoext that was cut using one of the deletion shortcuts (such as the one above) after the cursor
 - `Ctrl + xx` – move between start of command line and current cursor position (and back again)
 - `Ctrl + f` – move forward one character
 - `Ctrl + b` – move backward one character
@@ -239,7 +239,7 @@ from [skorks](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productiv
 - `Ctrl + h` – delete character before the cursor
 - `Ctrl + t` – swap character under cursor with the previous one
 
-following not OS-X by default (**IN OS-X SEE [HERE](http://cmd.club/pages/bash)** to map the keys to work) 
+following not OS-X by default (**IN OS-X** go to iTerm -> Profiles -> Keys -> and choose "Option key acts as +Esc" to map the option [alt] key to work) 
 
 - `Alt + b` – move backward one word (or go to start of word the cursor is currently on)
 - `Alt + f` – move forward one word (or go to end of word the cursor is currently on)
