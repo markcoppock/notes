@@ -1,6 +1,6 @@
 # images on the web
 
-for meeting Apr. 2012; additions/updates May 2015  
+for meeting Apr. 2012; additions/updates May 2015, Feb. 2016 
 
 **proper images add visual content to the story/page/site**
 
@@ -18,6 +18,11 @@ for meeting Apr. 2012; additions/updates May 2015
 - For transparency on images with clean edges, use .gif
 - work in RGB not CMYK. When converting from CMYK, the colors will change  
 - use the sRGB color space in Photoshop 
+
+### use the appropriate dimensions
+
+Don't use the image right out of the camera, with 4000+ pixel dimensions. **The largest dimension uploaded may not need to be more than ~1600px.** Size before uploading, accordingly. 
+
 
 ### image compression
 
