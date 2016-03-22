@@ -477,6 +477,20 @@ secure remove
 
 ---
 
+## cp
+
+copy files/directories  
+
+ex.: `cp -pRv source/ target` (note trailing slash; copies all files/directories within, not the containing directory) 
+
+- `-p` preserves timestamps, flags, modes, and ownerships of files
+- `-R` copies the entire subtree
+- `-v` makes `cp` output the name of each file that is copied
+
+more for OS X [here](http://www.456bereastreet.com/archive/201102/merging_directories_folders_on_mac_os_x/)  
+
+---
+
 ## pwd 
 
 print working directory (shows where you are)
