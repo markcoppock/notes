@@ -219,7 +219,9 @@ change uppercase to lowercase in file names in directory:
 
 	for i in *; do mv "$i" "`echo $i| tr [A-Z] [a-z]`"; done
 	
-(though with both of the above you can use `rename` rather that `mv` if the OS/distribution supports it — see next)
+(though with both of the above you can use `rename` rather that `mv` if the OS/distribution supports it — see next)  
+
+`cp -v * directoryname 1>../success.txt 2>../errors.txt` note: the numerals 1 and 2 correspond to the Standard Output, and the Standard Error, respectively. `... &>output.txt` combines all output.   
 
 ## bash shortcuts
 
