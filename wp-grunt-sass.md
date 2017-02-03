@@ -63,3 +63,12 @@ will also see a node-modules directory
 
 `grunt` once changes are made to a *.scss file, will compile and run all the tasks  
 
+## 6. enqueue the generated /style-dist.css
+
+e.g., in functions.php or an included file:
+
+	add_action( 'wp_enqueue_scripts', 'carteeh_enqueue_scss_css' );
+	function carteeh_enqueue_scss_css() {
+		wp_enqueue_style( 'carteeh-scss', get_stylesheet_directory_uri() . '/style-dist.css', array(), CHILD_THEME_VERSION );
+	}
+
