@@ -297,7 +297,7 @@ e.g.,
 
 Then, bind the placeholder to their variables:
 
-![example](https://dl.dropboxusercontent.com/u/2561535/Screenshots/mysqli-prepared-statement-example.png)
+![example](http://tticomweb.wpengine.com/wp-content/uploads/2017/03/mysqli-prepared-statement-example.png)
 
 prepared statements ***separate the query from the dynamic data, eliminating the possibility of SQL injection*** (also eliminates the need to escape strings)  
 
