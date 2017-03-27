@@ -421,9 +421,9 @@ Putting the dollar sign in front of anything that has a numeric value, yields th
 
 ### html
 
-`/<.+>/` matches all of "\<i>italic text\</i>"  
+`/<.+>/` matches all of "\<i\>italic text\</i\>"  
 
-`/<[^>]+>/` matches only the "\<i>" of the above  
+`/<[^>]+>/` matches only the "\<i\>" of the above  
 
 ### fantastic awk 1-line scripts
 

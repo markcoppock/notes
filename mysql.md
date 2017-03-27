@@ -162,13 +162,13 @@ in a different table, create a new table with a 'foreign key' column, which conn
      INDEX (subject_id)
     );
 
-![creating a new table with a 'foreign key' column, which connects this table with (a) row(s) from another](https://dl.dropboxusercontent.com/u/2561535/Screenshots/relational_db_tables.png)
+![creating a new table with a 'foreign key' column, which connects this table with (a) row(s) from another](http://tticomweb.wpengine.com/wp-content/uploads/2017/03/relational_db_tables.png)
 
 ---
 
 ### php and mysql apis
 
-![PHP database apis: mysql, mysql1, PDO](https://dl.dropboxusercontent.com/u/2561535/Screenshots/php-db-apis.png)  
+![PHP database apis: mysql, mysql1, PDO](http://tticomweb.wpengine.com/wp-content/uploads/2017/03/php-db-apis.png)  
 
 also [php.net](http://php.net/en/mysqlinfo.api.choosing.php) for choosing  
 
@@ -297,7 +297,7 @@ e.g.,
 
 Then, bind the placeholder to their variables:
 
-![example](https://dl.dropboxusercontent.com/u/2561535/Screenshots/mysqli-prepared-statement-example.png)
+![example](http://tticomweb.wpengine.com/wp-content/uploads/2017/03/mysqli-prepared-statement-example.png)
 
 prepared statements ***separate the query from the dynamic data, eliminating the possibility of SQL injection*** (also eliminates the need to escape strings)  
 
