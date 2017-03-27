@@ -40,7 +40,7 @@ also [book.git-scm.com](http://book.git-scm.com/)
 
 ## adding and committing
 
-![working directory -> index -> repository: COMMIT](http://o7.no/NNtD3e) from [@dcousineau](https://speakerdeck.com/u/dcousineau/p/git-an-illustrated-primer)
+![working directory -> index -> repository: COMMIT](http://tticomweb.wpengine.com/wp-content/uploads/2017/03/otvx.png) from [@dcousineau](https://speakerdeck.com/u/dcousineau/p/git-an-illustrated-primer)
 
 * check changes with `git status` and `git diff`
 * w/git **there is a separate *`git add`* step before the commit** even if it's not a new file. This is to add it to the "**staging area**"
@@ -123,7 +123,7 @@ can only amend the most recent commit (the one HEAD points to)
 - `$ git add -p` (then it gives you options on which to add)
 - excellent explanation on [CSS Tricks](https://css-tricks.com/git-add-patch-mode/)
 
-![DASH P ALL THE THINGS](https://dl.dropboxusercontent.com/u/12710016/Screenshots/dash-p.png) 
+![DASH P ALL THE THINGS](http://tticomweb.wpengine.com/wp-content/uploads/2017/03/dash-p.png) 
 
 ( image from Brent Shepard's pres from [WordCamp Chicago 2014](http://wordpress.tv/2014/08/04/brent-shepherd-develop-very-mild-superpowers-with-git/): [Develop Very Mild Super Powers with Git](https://speakerdeck.com/thenbrent/develop-very-mild-super-powers-with-git) )
 
