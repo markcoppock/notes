@@ -70,13 +70,6 @@ the first thing that happens in many child themes is the style.css file from the
 *actually, I've added this to my '~/.bash_profile': `alias sq="sass --watch style.scss:style.css"` so I only need to type `sq` to start sass
 
 
-### down side of SASS
-
-since SASS compiles all your styles into one file, <span style="text-decoration:line-through">*checking styles in the Chrome Developer Tools no longer points to the line in question in your working (.scss) files*</span>  
-
-**UPDATE**: wow, fixed!  
-![](https://dl.dropboxusercontent.com/u/12710016/Screenshots/chrome-dev-tools-sass.png)
-
 ### recommendations
 
 - use many logically named [partials](http://sass-lang.com/guide#topic-4) (e.g., all media queries might go in _mediaqueries.scss [and in this case, imported last])
