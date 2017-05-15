@@ -31,12 +31,21 @@ Don't use the image right out of the camera, with 4000+ pixel dimensions. **The 
 
 ### html image attributes
 
-- don't leave an image with the default cryptic filename in the `title` attribute
-- **always need a valid `alt` attribute for an image**
-	- `alt` *describes the image* (`alt="black-and-white photo portrait of older, mustached, white-haired man in suit"` rather than `alt="Dr. Albert Einstein"`)
-	- if the image is *only* for sighted users, use `alt=""`
-	- not the same as the `title` attribute
-	- not the same as the caption
+#### `title` attribute
+
+don't leave an image with the default cryptic filename in the `title` attribute
+
+#### `alt` attribute 
+
+**always need a valid `alt` attribute for an image** (an empty string applies, if appropriate)  
+
+- be accurate, equivalent, and succinct
+- if the image is *only* for sighted users, use `alt=""`
+- not the same as the `title` attribute
+- not the same as the caption
+- NOT be redundant. Ex.:
+- NOT use the phrases “image of.. “, “graphic of…”
+- not add additional information, beyond the content of the image
 	
 decision tree from [4 Syllables](http://www.4syllables.com.au/wp-content/uploads/2010/12/decision-tree1.png):  
 
