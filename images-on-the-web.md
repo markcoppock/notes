@@ -43,7 +43,7 @@ don't leave an image with the default cryptic filename in the `title` attribute
 - if the image is *only* for sighted users, use `alt=""`
 - not the same as the `title` attribute
 - not the same as the caption
-- NOT be redundant. Ex.:
+- NOT be redundant. Ex.: saying the same thing as the image caption
 - NOT use the phrases “image of.. “, “graphic of…”
 - not add additional information, beyond the content of the image
 	
