@@ -6,7 +6,7 @@
 
 ### without plugin
 
-see [here](fancybox.php)
+see [here](https://github.com/markcoppock/notes/blob/master/wordpress/fancybox-wordpress.md)
 
 ### Easy Fancybox plugin settings
 

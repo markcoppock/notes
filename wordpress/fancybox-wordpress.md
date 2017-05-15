@@ -1,6 +1,8 @@
 # using fancybox 2 on WordPress sites (no plugin, without helper files)
 
-to avoid using, or to replace, the now-old Shadowbox JS plugin
+to avoid using, or to replace, the now-old Shadowbox JS plugin  
+
+**OR** you can use [Easy Fancybox](https://wordpress.org/plugins/easy-fancybox/) instead of the following. [Suggested settings for Easy Fancybox](https://github.com/markcoppock/notes/blob/master/wordpress/wordpress.md)  
 
 ---
 
