@@ -51,7 +51,7 @@ will also see a node-modules directory
 
 `touch Gruntfile.js`  
 
-[example Gruntfile.js](../reference/Gruntfile.js)   
+[example Gruntfile.js](https://raw.githubusercontent.com/markcoppock/notes/master/reference/Gruntfile.js)   
 
 **note:** to avoid the main WP style.css at the root from getting its initial comments removed, add a `!` after the first comment opening:  
 
