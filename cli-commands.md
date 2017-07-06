@@ -70,11 +70,11 @@ to set it up on a remote server (from [here](http://users.telenet.be/mydotcom/ho
 
 1) secure copy (`scp`) your public key to your remote server:
 
-`luser@Local01:~$ scp /home/luser/.ssh/id_dsa.pub ruser@Remote:luser.pub.tmp`
+`localuser@Local:~$ scp ~/.ssh/id_rsa.pub remoteuser@Remoteserver:localuser.pub.tmp`
 	
 2)  secure shell (`ssh`) into the remote server, copy the key into its directory, and delete the original:
 	
-	luser@Local01:~$ ssh ruser@Remote  
+	localuser@Local:~$ ssh remoteuser@Remoteserver  
 	mkdir .ssh # (if this directory doesn't already exist)  
 	chmod 700 .ssh  
 	cat luser.pub.tmp >> .ssh/authorized_keys  
