@@ -77,9 +77,9 @@ to set it up on a remote server (from [here](http://users.telenet.be/mydotcom/ho
 	localuser@Local:~$ ssh remoteuser@Remoteserver  
 	mkdir .ssh # (if this directory doesn't already exist)  
 	chmod 700 .ssh  
-	cat luser.pub.tmp >> .ssh/authorized_keys  
+	cat localuser.pub.tmp >> .ssh/authorized_keys  
 	chmod 600  .ssh/authorized_keys  
-	rm luser.pub.tmp
+	rm localuser.pub.tmp
 
 ---
 
