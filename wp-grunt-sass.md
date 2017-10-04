@@ -10,7 +10,7 @@ if `sass --version` gives a 'command not found' response, then: `sudo gem instal
 
 ---
 
-now, in theme directory:  
+now, in ~~theme~~ the WordPress root directory (since we're using WP Engine git):  
 
 ## 1. set .gitignore to include:  
 
