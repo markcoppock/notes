@@ -10,7 +10,7 @@ if `sass --version` gives a 'command not found' response, then: `sudo gem instal
 
 ---
 
-now, in <del>theme</del> the WordPress root directory (since we're using WP Engine git):  
+now, in the <del>theme</del> WordPress root directory (since we're using WP Engine git):  
 
 ## 1. set .gitignore to include:  
 
@@ -22,7 +22,7 @@ now, in <del>theme</del> the WordPress root directory (since we're using WP Engi
 
 ## 2. initialize node
 
-again in the theme directory:  
+again in the top-level directory:  
 
 `npm init` will create file package.json  
 
