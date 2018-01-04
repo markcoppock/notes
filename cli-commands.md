@@ -340,7 +340,7 @@ from [devshed](http://forums.devshed.com/showpost.php?p=1065708&postcount=3): Se
 	sarah george fred
 	larry wallace marcy
 
-see [separate notes file on AWK](http://dmgdemophp.tamu.edu/marknotes/awk/)  
+see [separate notes file on AWK](https://github.com/markcoppock/notes/blob/master/awk.md)  
 
 ---
 
