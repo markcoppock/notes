@@ -253,7 +253,7 @@ following not OS-X by default (**IN OS-X** go to iTerm -> Profiles -> Keys -> an
 - `ESC - b` move one word back (must release ESC key each time)
 - `ESC - f` move one word forward (must release ESC key each time)
 
-In bash terminals other than iTerm, for the first 3 most commonly used command in the last above section, add this to your ~/.inputrc (from [here](https://github.com/zeit/hyper/issues/213#issuecomment-270935838):  
+In bash terminals other than iTerm, for the first 3 most commonly used command in the last above section, add this to your ~/.inputrc (from [here](https://github.com/zeit/hyper/issues/213#issuecomment-270935838)):  
 
 ```
 # `Alt-b` to nav back a word
