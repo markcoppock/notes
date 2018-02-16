@@ -21,7 +21,7 @@ for meeting Apr. 2012; additions/updates May 2015, Feb. 2016
 
 ### use the appropriate dimensions
 
-Don't use the image right out of the camera, with 4000+ pixel dimensions. **The largest dimension uploaded may not need to be more than ~1600px.** Size before uploading, accordingly. 
+Don't use the image right out of the camera, with 4000+ pixel dimensions. **The largest dimension uploaded may not need to be more than ~1600px, at 72 pixels per inch.** Size before uploading, accordingly. 
 
 
 ### image compression
