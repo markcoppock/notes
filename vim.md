@@ -207,7 +207,7 @@ then to the next instance of that word: `n`
 
 #### on windows:
 
-`:%s/^V^M/\r/g` also known as: `:%s/CTRL-V CTRL-M/\r/g`
+`:%s/^V^M/\n/g` also known as: `:%s/CTRL-V CTRL-M/\n/g`
 
 #### on mac:
 
