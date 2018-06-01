@@ -10,9 +10,9 @@ if `sass --version` gives a 'command not found' response, then: `sudo gem instal
 
 ---
 
-now, in the <del>theme</del> WordPress root directory (since we're using WP Engine git):  
-
 ## 1. set .gitignore to include:  
+
+the .gitignore goes in the WordPress install's root directory, since we're using WP Engine git:  
 
 	node_modules
 	.npm-debug.log
@@ -24,7 +24,7 @@ Or better yet, use a .gitignore that ignores everything and brings back just wha
 
 ## 2. initialize node
 
-again in the top-level of the theme directory:  
+now, in the top-level of the theme directory:  
 
 `npm init` will create file package.json  
 
