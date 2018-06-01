@@ -19,10 +19,12 @@ now, in the <del>theme</del> WordPress root directory (since we're using WP Engi
 	tmp
 	.sass-cache
 	*.css.map
+	
+Or better yet, use a .gitignore that ignores everything and brings back just what you need: [sample .gitignore from Bill Erickson](https://gist.github.com/billerickson/1391f5b5e22816a726fa044b99e99cbe#file-gitignore)  
 
 ## 2. initialize node
 
-again in the top-level directory:  
+again in the top-level of the theme directory:  
 
 `npm init` will create file package.json  
 
