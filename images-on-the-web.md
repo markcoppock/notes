@@ -13,11 +13,13 @@ for meeting Apr. 2012; additions/updates May 2015, Feb. 2016
 
 ### use the appropriate mode/file type
 
-- don't use .jpg for a continous-tone graphic (use 8-bit .png)
-- use 24-bit .png for transparency with non-clean edges
-- For transparency on images with clean edges, use .gif
+- use .svg when possible for non-photographic images. if not feasible:
+     - don't use .jpg for a continous-tone graphic (use 8-bit .png)
+     - use 24-bit .png for transparency with non-clean edges
+     - For transparency on images with clean edges, use .gif
 - work in RGB not CMYK. When converting from CMYK, the colors will change  
 - use the sRGB color space in Photoshop 
+
 
 ### use the appropriate dimensions
 
