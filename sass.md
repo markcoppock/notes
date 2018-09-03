@@ -41,6 +41,8 @@ In WordPress, use the 'style.css' at the site root only for the Theme info:
 	
 	/* and that's all for this file */
 	
+**\*\*NOTE\*\***: if the site being worked on uses grunt, **[follow these instructions where different from below](https://tticomweb.wpengine.com/wp-theme-development-with-grunt-and-sass-os-x/)**  
+	
 Create the directory structure and initial Sass files: `mkdir -p inc/scss/`  
 
 Move all your CSS from the original site root style.css into inc/scss/style.scss (note the extension: **.scss**). Then you can begin the process of moving the CSS into separate Sass partials.  
