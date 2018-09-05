@@ -41,7 +41,7 @@ In WordPress, use the 'style.css' at the site root only for the Theme info:
 	
 	/* and that's all for this file */
 	
-**\*\*NOTE\*\***: if the site being worked on uses grunt, **[follow these instructions where different from below](https://tticomweb.wpengine.com/wp-theme-development-with-grunt-and-sass-os-x/)**  
+**\*\*NOTE\*\***: if the site being worked on uses grunt, **[follow these instructions where different from below](https://github.com/markcoppock/notes/blob/master/wp-grunt-sass.md)**  
 	
 Create the directory structure and initial Sass files: `mkdir -p inc/scss/`  
 
