@@ -60,7 +60,7 @@ The cursor is moved using either the arrow keys or the hjkl keys
 
 without changing the position of the cursor (though stays on the screen)  
 
-`ctrl + e` - down one 
+`ctrl + e` - down one  
 `ctrl + y` - up one  
 `ctrl + f` – Jump forward one full screen  
 `ctrl + b` – Jump backwards one full screen  
