@@ -2,6 +2,14 @@
 
 ---
 
+## embed a YouTube video from a page template
+
+if the standard (https://developer.wordpress.org/reference/functions/do_shortcode/) way not working:
+
+	echo $GLOBALS['wp_embed']->run_shortcode('[embed]https://youtube.com/watch?v=' . $video_id . '[/embed]');
+
+- - -
+
 ## create a slug 
 
 	$slug = sanitize_title(sanitize_title($some_string, '', 'save'), '', 'query');
