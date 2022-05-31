@@ -2,6 +2,16 @@
 
 ---
 
+## create a slug 
+
+	$slug = sanitize_title(sanitize_title($some_string, '', 'save'), '', 'query');
+	
+from: https://wordpress.stackexchange.com/questions/74415/how-does-wordpress-generate-url-slugs. Response Jun 5, 2018; note that to make a unique slug, the previous response:  
+
+	$data['post_name'] = wp_unique_post_slug( sanitize_title( $data['post_title'], $post_ID ), $post_ID, $data['post_status'], $post_type, $post_parent );
+
+	$wpdb->update( $wpdb->posts, array( 'post_name' => $data['post_name'] ), $where );
+
 ## fancybox
 
 ### without plugin
